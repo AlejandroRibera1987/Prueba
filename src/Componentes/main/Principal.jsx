@@ -4,14 +4,15 @@ import "./principal.scss"
 export const Principal = () => {
     return (
         <main className=" h-screen w-scree flex justify-center">
-            <div>
-                <div className=" flex justify-center">
-                    <img src="src\images\logo.jpg" alt="Logo" className=" flex pb-3 pt-5 h-40 w-60 "/>
-                </div>
-                <div className=" text-center flex justify-center">
-                    <h1 className=" flex text-white text-center">Hola mundo</h1>
-                </div>
-            </div>
+            <nav className=" flex justify-between items-center bg-white w-screen bg-opacity-20 h-20">
+                <a href="#" className=" text-white ml-3">Logo</a>
+                <ul className=" flex gap-x-5">
+                    <li><a href="#" className=" text-white">Inicio</a></li>
+                    <li><a href="#" className=" text-white">Inicio</a></li>
+                    <li><a href="#" className=" text-white">Inicio</a></li>
+                </ul>
+                <a href="#" className=" text-white mr-3">Contacto</a>
+            </nav>
         </main>
     )
 }
